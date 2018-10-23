@@ -13,6 +13,17 @@ class ViewController: UIViewController {
 //    Explicit
     let myNameString: String = "Kuntapon Tanikkool กัณ"
     
+    @IBOutlet weak var ShowNameLabel: UILabel!
+    
+    @IBAction func ChangButton(_ sender: Any) {
+        print("You Click changeButton")
+        ShowNameLabel.text = myNameString
+        
+        
+    } // changButton
+    
+    
+    
     
     
     override func viewDidLoad() {
