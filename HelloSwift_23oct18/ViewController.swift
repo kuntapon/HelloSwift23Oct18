@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+//    Explicit
+    let myNameString: String = "Kuntapon Tanikkool กัณ"
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
